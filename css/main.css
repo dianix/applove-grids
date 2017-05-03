@@ -121,3 +121,22 @@ h4 {
 h6 {
     margin: 0;
 }
+
+#work {
+    text-align: center;
+    padding: 70px 7px;
+}
+
+.text-work {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+footer {
+    text-align: center;
+    height: 70px;
+    background-color: #2b2e34;
+    color: white;
+    padding-top: 7px;
+}
+
