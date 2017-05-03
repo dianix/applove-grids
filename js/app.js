@@ -5,15 +5,10 @@ var imagenModal = document.getElementById("modalImage");
 var boton = document.getElementById("close");
 var fotos = document.getElementsByClassName("fotito");
 
-function detectarImagen() {
-    mostrarModal(this);
-    console.log(this);
-}
-
-function mostrarModal(imagen){
+function mostrarModal(){
     console.log(modal);
     modal.style.display = "block";
-    imagenModal.src = imagen.src;
+    imagenModal.src = this.src;
 }
 
 function cerrarModal(){
@@ -21,7 +16,7 @@ function cerrarModal(){
 }
 
 for(var i = 0; i < fotos.length; i++){
-    fotos[i].addEventListener("click",detectarImagen);
+    fotos[i].addEventListener("click",mostrarModal);
 }
 
 boton.addEventListener("click",cerrarModal);
