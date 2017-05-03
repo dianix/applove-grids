@@ -44,6 +44,7 @@ a:hover {
 
 .logo {
     float: right;
+    width: 70px;
 }
 
 header {
@@ -54,7 +55,7 @@ header {
 }
 
 .menu {
-    padding: 14px 70px;
+    padding: 0 70px;
     overflow: auto;
 }
 
