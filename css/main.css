@@ -98,28 +98,27 @@ header {
     padding: 70px 7px;
 }
 
-.box-services {
-    display: inline-block;
-    width: 30%;
+.box-services, .box-work {
     margin-top: 63px;
 }
 
-#services .row .box-services img {
-    width: 200px;
-}
-
-.text-services {
-    font-size: 35px;
-    letter-spacing: 2px;
-}
-
-h4 {
+.text-content {
     width: 60%;
     margin: 0 auto;
 }
 
-h6 {
+.box-services img {
+    width: 55%;
+    min-width: 100px;
+}
+
+.m-0{
     margin: 0;
+}
+
+.text-services, .text-work {
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
 #work {
@@ -127,9 +126,8 @@ h6 {
     padding: 70px 7px;
 }
 
-.text-work {
-    font-size: 35px;
-    letter-spacing: 2px;
+.box-work img {
+    width: 85%;
 }
 
 footer {
@@ -138,5 +136,38 @@ footer {
     background-color: #2b2e34;
     color: white;
     padding-top: 7px;
+    padding-bottom: 20px;
 }
 
+/*imagen modal*/
+
+#modalArea {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #009b71;
+    background-color: rgba(0, 155, 113, 0.86);
+}
+
+.modal-img {
+    margin: auto;
+    display: block;
+    width: 40%;    
+}
+
+#close {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+    #close:hover {
+        color: #6fffd8;
+        cursor: pointer;
+    }
