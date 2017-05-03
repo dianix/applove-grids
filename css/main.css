@@ -90,3 +90,34 @@ header {
     font-size: 14px;
 }
 
+#services {
+    background-color: #F17C72;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 70px 7px;
+}
+
+.box-services {
+    display: inline-block;
+    width: 30%;
+    margin-top: 63px;
+}
+
+#services .row .box-services img {
+    width: 200px;
+}
+
+.text-services {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h6 {
+    margin: 0;
+}
