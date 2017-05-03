@@ -156,15 +156,18 @@ footer {
 }
 
 .modal-img {
-    margin: auto;
-    display: block;
-    width: 40%;    
+    width: 50%;
+    border: 10px solid white;
 }
 
 #close {
-    color: white;
-    font-size: 40px;
+    top: 30%;
+    color: #009b71;
+    font-size: 60px;
     font-weight: bold;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -100px;
 }
 
     #close:hover {

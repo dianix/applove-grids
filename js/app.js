@@ -1,7 +1,7 @@
 //Archivo principal de funcionalidad de JS
 
 var modal = document.getElementById("modalArea");
-var imagenModal = document.getElementById("imagenVentana");
+var imagenModal = document.getElementById("modalImage");
 var boton = document.getElementById("close");
 var fotos = document.getElementsByClassName("fotito");
 
